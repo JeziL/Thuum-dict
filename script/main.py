@@ -64,7 +64,7 @@ if __name__ == '__main__':
                 thuum = Thuum(word, div.div.contents[0].strip(), meanings)
                 thuumme[word] = thuum
         time.sleep(1.0)
-    with open('../src/thuum.txt', 'w') as f:
+    with open('../src/thuum.txt', 'w', newline='\r\n') as f:
         for i, (k, v) in enumerate(thuumme.items()):
             if i == len(thuumme) - 1:
                 f.write(v.mdx_string(css_file='thuum.css'))
