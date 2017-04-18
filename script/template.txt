@@ -1,0 +1,11 @@
+{word}
+<link rel="stylesheet" type="text/css" href={css} />
+<div class="word-area">
+    <span class="word">{word}</span>
+    <span class="dragon-script">{dragon_script}</span>
+    <p class="ipa">{ipa}</p>
+</div>
+<div class="body">
+    {body}
+</div>
+</>
