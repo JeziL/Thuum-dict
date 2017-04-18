@@ -1165,7 +1165,7 @@ Du'ul
 <link rel="stylesheet" type="text/css" href="thuum.css" />
 <div class="word-area">
     <span class="word">Du'ul</span>
-    <span class="dragon-script">DU'UL</span>
+    <span class="dragon-script">D5L</span>
     <p class="ipa">/dul, ˈdu ʌl, duˈul/</p>
 </div>
 <div class="body">
@@ -2015,7 +2015,7 @@ Grik
 <div class="word-area">
     <span class="word">Grik</span>
     <span class="dragon-script">GRIK</span>
-    <p class="ipa">/grik/</p>
+    <p class="ipa">grik/</p>
 </div>
 <div class="body">
     <p><i>pron.</i> such, so, someone or something indicated</p>
@@ -5963,7 +5963,7 @@ Strundu'ul
 <link rel="stylesheet" type="text/css" href="thuum.css" />
 <div class="word-area">
     <span class="word">Strundu'ul</span>
-    <span class="dragon-script">STRUNDU'UL</span>
+    <span class="dragon-script">STRUND5L</span>
     <p class="ipa">/strun ˈdul, strun ˈdu ʌl, ˈstrun duˌul/</p>
 </div>
 <div class="body">
@@ -5996,7 +5996,7 @@ Su'um
 <link rel="stylesheet" type="text/css" href="thuum.css" />
 <div class="word-area">
     <span class="word">Su'um</span>
-    <span class="dragon-script">SU'UM</span>
+    <span class="dragon-script">S5M</span>
     <p class="ipa">/sum, ˈsu ʌm, suˈum/</p>
 </div>
 <div class="body">
@@ -6157,7 +6157,7 @@ Thu'um
 <link rel="stylesheet" type="text/css" href="thuum.css" />
 <div class="word-area">
     <span class="word">Thu'um</span>
-    <span class="dragon-script">THU'UM</span>
+    <span class="dragon-script">TH5M</span>
     <p class="ipa">/θum, ˈθu ʌm, θuˈum/</p>
 </div>
 <div class="body">
@@ -6307,7 +6307,7 @@ Tu'um
 <link rel="stylesheet" type="text/css" href="thuum.css" />
 <div class="word-area">
     <span class="word">Tu'um</span>
-    <span class="dragon-script">TU'UM</span>
+    <span class="dragon-script">T5M</span>
     <p class="ipa">/tum, ˈtu ʌm, tuˈum/</p>
 </div>
 <div class="body">
@@ -7547,7 +7547,7 @@ Zu'u
 <link rel="stylesheet" type="text/css" href="thuum.css" />
 <div class="word-area">
     <span class="word">Zu'u</span>
-    <span class="dragon-script">ZU'U</span>
+    <span class="dragon-script">Z5</span>
     <p class="ipa">/zu, zuˈu/</p>
 </div>
 <div class="body">

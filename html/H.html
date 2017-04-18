@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    	        	<title>Dictionary | Thuum.org - The Dragon Language Dictionary</title>
+                <link rel="stylesheet" href="assets/style5.min.css?v=4"  />
+        <link rel="stylesheet" href="assets/jquery-ui.css"  />
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+                	<meta name="description" content="Browse the dragon language dictionary. Includes in-game usage, citations, and detailed word notes.">
+                <meta property="og:image" content="https://www.thuum.org/assets/images/og.jpg" />
+        			<meta property="og:description" content="Browse the dragon language dictionary. Includes in-game usage, citations, and detailed word notes." />
+        		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+
+	</head>
+    
+        
+    <body>
+   <script type="text/javascript" 
+   src="assets/jquery-1.10.2.min.js"></script>
+	<script src="assets/jquery-ui.js"></script>
+<script type="text/javascript">
+$(function() {
+    $( document ).tooltip();
+});
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37351553-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+ <div class="container">
+ <div class="mobilenav">
+        	<div class="dropdown">
+            	<img id="nav-dropdown" src="assets/images/mobile-nav-icon.png" />
+            </div>
+            <div id="nav-main" class="nav-list">
+            	<a href="index.php">
+                    <div class="nav-item"><p>Home</p></div>
+                </a>
+                
+				                
+                <div class="nav-item up"><p>Language</p></div>
+                <div class="nav-list">
+                    <div class="nav-item up"><p>Dictionary</p></div>
+                    <div class="nav-list">
+                        <a href="dictionary.php?letter=A">
+                            <div class="nav-item"><p>Dragon-English</p></div>
+                        </a>
+                  		<a href="dictionary.php?letter=A&mode=english">
+                            <div class="nav-item"><p>English-Dragon</p></div>
+                        </a>
+                  		<a href="dictionary.php?letter=A&lang=deutsch">
+                            <div class="nav-item"><p>Drachen-Deutsch</p></div>
+                        </a>
+                  		<a href="dictionary.php?letter=A&mode=deutsch">
+                            <div class="nav-item"><p>Drachen-Deutsch</p></div>
+                        </a>
+                  		<a href="dictionary.php?letter=A&lang=francais">
+                            <div class="nav-item"><p>Dragon-Français</p></div>
+                        </a>
+                  		<a href="dictionary.php?letter=A&mode=francais">
+                            <div class="nav-item"><p>Français-Dragon</p></div>
+                        </a>
+                    </div>
+                    <div class="nav-item up"><p>Legacy Dictionary</p></div>
+                    <div class="nav-list">
+                        <a href="dictionary-legacy.php?letter=A">
+                            <div class="nav-item"><p>Dragon-English</p></div>
+                        </a>
+                  		<a href="dictionary-legacy.php?letter=A&mode=english">
+                            <div class="nav-item"><p>English-Dragon</p></div>
+                        </a>
+                  		<a href="translate-legacy.php">
+                            <div class="nav-item"><p>Legacy Translator</p></div>
+                        </a>
+                  		<a href="search-legacy.php">
+                            <div class="nav-item"><p>Legacy Search</p></div>
+                        </a>
+                    </div>
+                    <a href="learn/grammar/alphabet.php">
+                        <div class="nav-item"><p>Alphabet</p></div>
+                    </a>
+                    <a href="translator.php">
+                        <div class="nav-item"><p>Translator</p></div>
+                    </a>
+                    <a href="learn/grammar/alphabet.php#3">
+                        <div class="nav-item"><p>Transcriber</p></div>
+                    </a>
+                    <a href="search.php">
+                        <div class="nav-item"><p>Search</p></div>
+                    </a>
+                </div>
+                <div class="nav-item up"><p>Learn</p></div>
+                <div class="nav-list">
+                    <a href="learn/">
+                        <div class="nav-item"><p>Lessons</p></div>
+                    </a>
+                    <a href="library.php">
+                        <div class="nav-item"><p>Library</p></div>
+                    </a>
+                    <a href="http://www.memrise.com/course/183924/dovahzul-canon/">
+                        <div class="nav-item"><p>Memrise Course</p></div>
+                    </a>
+                    <a href="/sikaav/">
+                        <div class="nav-item"><p>Sikaav</p></div>
+                    </a>
+                </div>
+                <div class="nav-item up"><p>Community</p></div>
+                <div class="nav-list">
+                    <a href="forums.php">
+                        <div class="nav-item"><p>Forums</p></div>
+                    </a>
+                    <a href="questions.php">
+                        <div class="nav-item"><p>Question Board</p></div>
+                    </a>
+					                    <a href="viewthread.php?thread=390">
+                        <div class="nav-item"><p>Pel Pals</p></div>
+                    </a>
+                    <a href="memberslist.php">
+                        <div class="nav-item"><p>Members List</p></div>
+                    </a>
+                </div>
+                <div class="nav-item up"><p>About</p></div>
+                <div class="nav-list">
+                    <a href="about.php">
+                        <div class="nav-item"><p>About Thuum.org</p></div>
+                    </a>
+                    <a href="faq.php">
+                        <div class="nav-item"><p>FAQ</p></div>
+                    </a>
+                </div>
+                <a href="library.php">
+                    <div class="nav-item"><p>Library</p></div>
+                </a>
+                <a href="sitemap.php">
+                    <div class="nav-item"><p>Site Map</p></div>
+                </a>
+                                <a href="login.php">
+                    <div class="nav-item"><p>Login</p></div>
+                </a>
+                            </div>
+        </div>
+        
+        <div class="headingbar">
+        	<a href="/" class="heading-content">
+            	<div class="square square-large square-t"></div>
+        		<h1>Thuum.org</h1>
+                <p>A community for the dragon language of <em>The Elder Scrolls V: Skyrim</em></p>
+            </a>
+        </div>
+        
+        <div class="mobile-header">
+        	<h1>Thuum.org</h1>
+            <p>A community for the dragon language of <em>The Elder Scrolls V: Skyrim</em></p>
+        </div>
+  <div class="content">
+<ul class="topnav">
+    <li><a href="index.php">Home</a></li>
+    <li>
+        <a href="dictionary.php?letter=A">Language</a>
+        <ul class="subnav">
+            <li><a href="dictionary.php?letter=A">Dictionary
+            <img src="assets/images/subscribed.png" style="position:relative; left:52px; top: 3px; border:0px;"/>
+            </a>
+                <ul class="subsubnav">
+                    <li><a href="dictionary.php?letter=A">Dragon-English</a></li>
+                    <li><a href="dictionary.php?letter=A&mode=english">English-Dragon</a></li>
+                    <li><a href="dictionary.php?letter=A&lang=deutsch">Drachen-Deutsch</a></li>
+                    <li><a href="dictionary.php?letter=A&mode=deutsch">Deutsch-Drachen</a></li>
+                    <li><a href="dictionary.php?letter=A&lang=francais">Dragon-Français</a></li>
+                    <li><a href="dictionary.php?letter=A&mode=francais">Français-Dragon</a></li>
+                </ul>
+            </li>
+            <li><a href="dictionary-legacy.php?letter=A">Legacy Dictionary
+            <img src="assets/images/subscribed.png" style="position:relative; left:5px; top: 3px; border:0px;"/>
+            </a>
+                <ul class="subsubnav">
+                    <li><a href="dictionary-legacy.php?letter=A">Dragon-English</a></li>
+                    <li><a href="dictionary-legacy.php?letter=A&mode=english">English-Dragon</a></li>
+                    <li><a href="translate-legacy.php">Legacy Translator</a></li>
+                    <li><a href="search-legacy.php">Legacy Search</a></li>
+                </ul>
+            </li>
+            <li><a href="learn/grammar/alphabet.php">Alphabet</a></li>
+            <li><a href="translator.php">Translator</a></li>
+            <li><a href="learn/grammar/alphabet.php#3">Transcriber</a></li>
+            <li><a href="search.php">Search</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="learn/">Learn</a>
+        <ul class="subnav">
+            <li><a href="learn/">Lessons</a></li>
+            <li><a href="library.php">Library</a></li>
+            <li><a href="#">Games
+            <img src="assets/images/subscribed.png" style="position:relative; left:40px; top: 3px; border:0px;"/></a>
+            	<ul class="subsubnav">
+                	<li><a href="/sikaav/">Sikaav</a></li>
+                	<li><a href="/forelnaar/">Forelnaar</a></li>
+                    <li><a href="labyrinth.php">The Labyrinth</a></li>
+                </ul>
+            </li>
+            <li><a href="http://www.memrise.com/course/183924/dovahzul-canon/">Memrise Course</a></li>
+    	</ul>
+    </li>
+    <li>
+        <a href="forums.php">Community</a>
+        <ul class="subnav">
+            <li><a href="forums.php">Forums
+				<img src="assets/images/subscribed.png" style="position:relative; left:50px; top: 3px; border:0px;"/></a>
+                    <ul class="subsubnav">
+                        <li><a href="viewforum.php?forum=2">Rules, FAQ & Help</a></li>
+                        <li><a href="viewforum.php?forum=3">Site Discussion</a></li>
+                        <li><a href="viewforum.php?forum=4">Dragon Language Discussion</a></li>
+                        <li><a href="viewforum.php?forum=5">The Elder Scrolls General Discussion</a></li>
+                        <li><a href="viewforum.php?forum=10">International Translation Discussion</a></li>
+                        <li><a href="viewforum.php?forum=6">The Hearth</a></li>
+                    </ul>
+                </li>
+            <li><a href="questions.php">Question Board</a></li>
+                            <li><a href="viewthread.php?thread=390">Pel Pals</a></li>
+            <li><a href="memberslist.php">Members List</a></li>
+        </ul>
+    </li>
+    <li>
+    	<a href="about.php">About</a>
+        <ul class="subnav">
+            <li><a href="about.php">About Thuum.org</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+        </ul>
+    </li>
+    <li>
+    	<a href="sitemap.php">Site Map</a>
+    </li>
+       
+              
+    	<li><a href="login.php?error=0">Login</a></li>  
+            </ul>
+    <div id="maincolumn">
+<script type="text/javascript">
+
+$(document).ready(function(){	
+	$("ul.topnav li ").mouseover(function() { //When trigger is clicked...
+		
+		//Following events are applied to the subnav itself (moving subnav up and down)
+		$(this).find("ul.subnav").show(); //Drop down the subnav on click
+
+		$(this).hover(function() {
+		}, function(){	
+			$(this).parent().find("ul.subnav").hide(); //When the mouse hovers out of the subnav, move it back up
+		});
+
+		//Following events are applied to the trigger (Hover events for the trigger)
+		}).hover(function() { 
+			$(this).addClass("subhover"); //On hover over, add class "subhover"
+		}, function(){	//On Hover Out
+			$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+	});
+	
+	$(".subnav li ").mouseover(function() { //When trigger is clicked...
+		
+		//Following events are applied to the subnav itself (moving subnav up and down)
+		$(this).find("ul.subsubnav").show(); //Drop down the subnav on click
+
+		$(this).hover(function() {
+		}, function(){	
+			$(this).parent().find("ul.subsubnav").hide(); //When the mouse hovers out of the subnav, move it back up
+		});
+
+		//Following events are applied to the trigger (Hover events for the trigger)
+		}).hover(function() { 
+			$(this).addClass("subhover"); //On hover over, add class "subhover"
+		}, function(){	//On Hover Out
+			$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+	});
+	
+	$("#nav-dropdown").click(function(){
+		if($("#nav-main").css("display") == "none"){
+			$("#nav-main").slideDown(250);
+		} else{
+			$("#nav-main").slideUp(250);
+		}
+	});
+	
+	$(".nav-item").click(function(){
+		$list = $(this).next();
+		if($list.attr("class") == "nav-list"){
+			if($list.css("display") == "none"){
+				$(this).removeClass("up");
+				$(this).addClass("down");
+				$list.slideDown(250);
+			} else{
+				$(this).removeClass("down");
+				$(this).addClass("up");
+				$list.slideUp(250);
+			}
+		}
+	});
+	
+	$(".notification-link").click(function(e){
+		e.preventDefault();
+		
+		$('<div id="modal"></div>').appendTo('body')
+			.html('<div id="content"><div id="msg-form"><p>Getting notifications...</p></div></div>')
+			.dialog({
+				modal: true, title: '', zIndex: 10000, autoOpen: true,
+				width: '480', resizable: false,
+				close: function (event, ui) {
+					$(this).remove();
+				}
+			});
+		
+		$.ajax({
+		   type: "POST",
+		   url: "ajax/get-notifications.php",
+		   success: function(data)
+		   {
+				$("#modal").dialog("close");
+				$('<div id="modal"></div>').appendTo('body')
+					.html('<div id="content"><div id="msg-form">'+data+'</div></div>')
+					.dialog({
+						modal: true, title: '', zIndex: 10000, autoOpen: true,
+						width: '480', resizable: false,
+						close: function (event, ui) {
+							$(this).remove();
+						}
+					});
+					
+				var notes = $(".ui-front #msg-form .notification").length;
+				
+				$(".total-notifications").each(function(){
+					var count = parseInt($(this).html());
+					count -= notes;
+					$(this).html(count);
+				});
+				
+				document.activeElement.blur();
+		   },
+		   error: function(){
+			   $(".ui-front #msg-form").html("An error occured while getting notifications. Please refresh and try again.");
+		   }
+		});
+		
+	});
+
+});
+</script>
+
+<h1>Dictionary</h1>
+<div class="dictionaryLinks">
+	<span id="A" class="tabInactive"><a href="dictionary.php?letter=A">A</a></span>
+    <span id="B" class="tabInactive"><a href="dictionary.php?letter=B">B</a></span>
+    <span id="C" class="tabInactive"><a href="dictionary.php?letter=C">C</a></span>
+    <span id="D" class="tabInactive"><a href="dictionary.php?letter=D">D</a></span>
+    <span id="E" class="tabInactive"><a href="dictionary.php?letter=E">E</a></span>
+    <span id="F" class="tabInactive"><a href="dictionary.php?letter=F">F</a></span> 
+    <span id="G" class="tabInactive"><a href="dictionary.php?letter=G">G</a></span> 
+    <span id="H" class="tabInactive"><a href="dictionary.php?letter=H">H</a></span> 
+    <span id="I" class="tabInactive"><a href="dictionary.php?letter=I">I</a></span>
+    <span id="J" class="tabInactive"><a href="dictionary.php?letter=J">J</a></span> 
+    <span id="K" class="tabInactive"><a href="dictionary.php?letter=K">K</a></span> 
+    <span id="L" class="tabInactive"><a href="dictionary.php?letter=L">L</a></span>
+    <span id="M" class="tabInactive"><a href="dictionary.php?letter=M">M</a></span> 
+    <span id="N" class="tabInactive"><a href="dictionary.php?letter=N">N</a></span> 
+    <span id="O" class="tabInactive"><a href="dictionary.php?letter=O">O</a></span>
+    <span id="P" class="tabInactive"><a href="dictionary.php?letter=P">P</a></span> 
+    <span id="Q" class="tabInactive"><a href="dictionary.php?letter=Q">Q</a></span>
+    <span id="R" class="tabInactive"><a href="dictionary.php?letter=R">R</a></span> 
+    <span id="S" class="tabInactive"><a href="dictionary.php?letter=S">S</a></span> 
+    <span id="T" class="tabInactive"><a href="dictionary.php?letter=T">T</a></span>
+    <span id="U" class="tabInactive"><a href="dictionary.php?letter=U">U</a></span>
+    <span id="V" class="tabInactive"><a href="dictionary.php?letter=V">V</a></span> 
+    <span id="W" class="tabInactive"><a href="dictionary.php?letter=W">W</a></span>
+    <span id="X" class="tabInactive"><a href="dictionary.php?letter=X">X</a></span>
+    <span id="Y" class="tabInactive"><a href="dictionary.php?letter=Y">Y</a></span>
+    <span id="Z" class="tabInactive"><a href="dictionary.php?letter=Z">Z</a></span>
+    <div class="clear" style="margin-bottom:10px;"></div>
+       		<span id="mode-dragon" class="tabInactive"><a href="dictionary.php?letter=H">Dragon-English</a></span> 
+   		<span id="mode-english" class="tabInactive"><a href="dictionary.php?letter=H&mode=english">English-Dragon</a></span> 
+        
+        <select class="input" id="languageSelect">
+        	<option selected disabled>Other</option>
+        	<option lang="deutsch" mode="dragon">Drachen-Deutsch</option>
+            <option lang="deutsch" mode="deutsch">Deutsch-Drachen</option>
+        	<option lang="francais" mode="dragon">Dragon-Français</option>
+            <option lang="francais" mode="francais">Français-Dragon</option>
+        </select>
+        <div class="clear"></div>
+    <script>
+$(document).ready(function(){
+	
+	var lang = "english";
+	var mode = "dragon";
+	var letter = "H";
+
+	$("#languageSelect option[lang="+lang+"][mode="+mode+"]").prop('selected',true);
+	
+	$("#languageSelect").change(function(e){
+		window.location.href = "dictionary.php?letter="+letter+"&lang="+$("#languageSelect").find(":selected").attr("lang")+"&mode="+$("#languageSelect").find(":selected").attr("mode");
+	});
+
+	$("#lang-"+lang).attr("class", "tabActive");
+	
+	$("#"+letter).attr("class", "tabActive");
+
+			var mode = "dragon";
+		if((mode == "dragon") && (lang == "english")){
+			$("#mode-"+mode).attr("class", "tabActive");
+		}
+	});
+</script>
+</div>
+
+
+    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=824">Haal</a>
+            <div class="info">
+            	/hɑl/&nbsp;<i>(noun)</i><p>n. hand</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=825">Haalvut</a>
+            <div class="info">
+            	/ˈhɑl vut/&nbsp;<i>(strong verb)</i><p>v. to touch, feel with  one’s hand <br>
+  n.  touch, feeling, esp. by hand</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=826">Haas</a>
+            <div class="info">
+            	/hɑs/&nbsp;<i>(noun)</i><p>n. health</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=827">Hah</a>
+            <div class="info">
+            	/hɑ/&nbsp;<i>(noun)</i><p>n. mind</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=828">Hahdrim</a>
+            <div class="info">
+            	/ˈhɑ drim/&nbsp;<i>(noun)</i><p>n. mind</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=829">Hahkun</a>
+            <div class="info">
+            	/ˈhɑ kun/&nbsp;<i>(noun)</i><p>n. axe, ax</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=830">Hahnu</a>
+            <div class="info">
+            	/ˈhɑ nu/&nbsp;<i>(strong verb)</i><p>v. to dream <br>
+  n.  dream</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=831">Hahvulon</a>
+            <div class="info">
+            	/ˈhɑ vu lon/&nbsp;<i>(strong verb)</i><p>v. to have a nightmare <br>
+  n.  nightmare</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=832">Heim</a>
+            <div class="info">
+            	/haɪm/&nbsp;<i>(strong verb)</i><p>v. to forge, work at a  forge <br>
+  n.  forge; forging</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=833">Het</a>
+            <div class="info">
+            	/hɛt/&nbsp;<i>(adverb)</i><p>adv. here, this place, at this place</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=834">Hevno</a>
+            <div class="info">
+            	/hɛv no/&nbsp;<i>(weak adjective)</i><p>adj. brutal, harsh <br>
+  adv. brutally, harshly <br>
+  v.  to harshen, make or become brutal or harsh</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=835">Hevnoraak</a>
+            <div class="info">
+            	/ˈhɛv no rɑk, hɛvˈnor æk/&nbsp;<i>(noun)</i><p>n. brutality</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=836">Heyv</a>
+            <div class="info">
+            	/heɪv/&nbsp;<i>(noun)</i><p>n. duty, moral or ritual obligation</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=837">Hi</a>
+            <div class="info">
+            	/hi, haɪ/&nbsp;<i>(pronoun)</i><p>pron. you</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=838">Hillgrundhofkah</a>
+            <div class="info">
+            	/ˈhɪl grundˌhof kə/&nbsp;<i>(noun)</i><p>n. Ivarstead, formerly known as Hillgrund&#39;s Steading</p>            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=839">Him</a>
+            <div class="info">
+            	/him/&nbsp;<i>(pronoun)</i><p>pron. your</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=840">Hin</a>
+            <div class="info">
+            	/hin/&nbsp;<i>(pronoun)</i><p>pron. your; yours</p>            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=841">Hind</a>
+            <div class="info">
+            	/hind/&nbsp;<i>(strong verb)</i><p>v. to wish (for); to  hope (for) <br>
+  n.  wish; hope</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=842">Hofkah</a>
+            <div class="info">
+            	/ˈhof kə, hɔf kə/&nbsp;<i>(noun)</i><p>n. house; farm, steading, farmstead</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=843">Hofkahsejun</a>
+            <div class="info">
+            	/ˌhof kə sɛˈdʒun,ˌhof kə sɛˈjun/&nbsp;<i>(noun)</i><p>n. palace, hall of a king or ruler</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=844">Hofkiin</a>
+            <div class="info">
+            	/ˈhof kə, ˈhɔf kə/&nbsp;<i>(noun)</i><p>n. home; homeland</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=845">Hokoron</a>
+            <div class="info">
+            	/ˈho kor on/&nbsp;<i>(noun)</i><p>n. enemy, adversary, opponent</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=846">Hon</a>
+            <div class="info">
+            	/hon/&nbsp;<i>(strong verb)</i><p>v. to hear; to listen  (to), heed <br>
+  n.  hearing; listening</p>            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=847">Horvut</a>
+            <div class="info">
+            	/ˈhor vut/&nbsp;<i>(noun)</i><p>n. trap, lure, snare; appeal</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=848">Horvutah</a>
+            <div class="info">
+            	/horˈvu tə/&nbsp;<i>(strong verb)</i><p>v. to trap, catch, ensnare<br />n. trapping, catch, capture</p>            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=849">Hun</a>
+            <div class="info">
+            	/hun/&nbsp;<i>(noun)</i><p>n. hero</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=850">Hungaar</a>
+            <div class="info">
+            	/ˈhun gɑr, ˈhuŋ gɑr/&nbsp;<i>(strong adjective)</i><p>adj. heroic <br>
+  adv. heroically <br>
+  n. heroism <br>
+  v.  to become or make heroic</p>
+            </div>
+		</div>
+	    			<div class="dic-listing ">
+			<a class="dic-word" href="word.php?w=851">Huzrah</a>
+            <div class="info">
+            	/ˈhuz rə/&nbsp;<i>(strong verb)</i><p>v. to hearken (to), heed <br>
+  n.  hearkening</p>
+            </div>
+		</div>
+	
+<div class="dictionaryLinks">
+	Displaying 28 of 646 entries</div>
+<br style="clear:both" />
+
+</div>
+</div>
+<div class="footer-new">
+	<div class="footer-tile">
+    	<h3>Language</h3>
+        <ul>
+        	<li><a href="dictionary.php?letter=A">Dictionary</a></li>
+            <li><a href="learn/grammar/alphabet.php">Alphabet</a></li>
+            <li><a href="library.php">Library</a></li>
+            <li><a href="learn/">Learn</a></li>
+        </ul>
+    </div>
+	<div class="footer-tile tile-middle">
+    	<h3>Community</h3>
+        <ul>
+        	<li><a href="forums.php">Forums</a></li>
+            <li><a href="questions.php">Question Board</a></li>
+            <li><a href="memberslist.php">Members List</a></li>
+			<li><a href="privacy-policy.php">Privacy Policy</a></li>
+            <li><a href="useraccount.php?error=0">Sign up</a></li>
+        </ul>
+    </div>
+	<div class="footer-tile">
+		<h3>Social</h3>
+		<div class="footer-social"><a href="https://www.facebook.com/Thuumorg"><img src="assets/images/facebook.png" height="32" width="32" /></a>
+        </div>
+		<div class="footer-social"><a href="http://diaryofadragonborn.tumblr.com"><img src="assets/images/tumblr.png" height="32" width="32" /></a>
+        </div>
+		<div class="footer-social"><a href="https://twitter.com/thuumorg"><img src="assets/images/twitter.png" height="32" width="32" /></a>
+        </div>
+    </div>
+    <p>This is an independent site and is not affiliated with Bethesda Softworks, LLC<br/>Background art by <a href="http://www.videogamesartwork.com/games/elder-scrolls-v-skyrim/barrow-entrance" target="_blank">Adam Adamowicz</a></p>
+    </div>
+</div>
+</body>
+
+</html>

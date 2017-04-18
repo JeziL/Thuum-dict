@@ -11,7 +11,7 @@ class Thuum(object):
 		self.meanings = meanings
 
 	def mdx_string(self, css_file):
-		self.dragon_script = self.word.upper()
+		self.dragon_script = self.word.upper().replace('\'', '')
 		table = {'AA': '1',
 				 'AH': '4',
 				 'EI': '2',
