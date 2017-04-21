@@ -12,7 +12,7 @@ Or you can convert it to various dictionary file formats using tools like [pyglo
 
 ## Build
 
-If you want to modify or build the dictionary by yourselves, you will need [MDXBuilder](http://www.mdict.cn/download/MdxBuilder.zip). Take a look at `script/main.py` to see how the mdx source file is generated.
+If you want to modify or build the dictionary by yourselves, you will need [MDXBuilder](http://www.mdict.cn/download/MdxBuilder.zip). Take a look at `script/main.go` to see how the mdx source file is generated.
 
 ## About
 
